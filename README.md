@@ -45,8 +45,10 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
+---
 
-**📂 Project Structure**
+## 📂 Project Structure
+
 spotify-recommender/
 │
 ├── app.py                 # Main Streamlit application
@@ -57,7 +59,9 @@ spotify-recommender/
 └── models/
     └── music_dataset.csv  # Kaggle Spotify dataset
 
-**💡 How It Works**
+---
+
+## 💡 How It Works
 
 * The dataset contains thousands of Spotify tracks, each scored on various acoustic features.
 
@@ -67,7 +71,9 @@ spotify-recommender/
 
 * The algorithm returns the songs with the shortest "distance" (highest similarity) to the target track.
 
-**👤 Author**
+--- 
+
+## 👤 Author
 
 Diya Kapadia
 
