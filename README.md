@@ -49,15 +49,21 @@ streamlit run app.py
 
 ## 📂 Project Structure
 
+The Music Recommendation System follows a modular project structure to keep the code organized, maintainable, and deployment-ready.
+
+```text
 spotify-recommender/
 │
 ├── app.py                 # Main Streamlit application
-├── utils.py               # ML logic and recommendation engine
-├── requirements.txt       # Dependencies for deployment
+├── utils.py               # Recommendation engine and ML logic
+├── requirements.txt       # Project dependencies
+│
 ├── app/
-│   └── style.css          # Custom UI styling
+│   └── style.css          # Custom CSS for the Streamlit UI
+│
 └── models/
-    └── music_dataset.csv  # Kaggle Spotify dataset
+    └── music_dataset.csv  # Processed Spotify music dataset
+```
 
 ---
 
