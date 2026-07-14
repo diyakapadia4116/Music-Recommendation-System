@@ -1,0 +1,123 @@
+/* Google Font: Montserrat (Closely resembles Spotify's Circular font) */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+
+html, body, [class*="css"] {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+/* Main Background: Signature Spotify Top-Gradient */
+.stApp {
+    background: linear-gradient(180deg, #2a2a2a 0%, #121212 30%, #121212 100%);
+    color: #FFFFFF;
+}
+
+/* Sidebar styling */
+[data-testid="stSidebar"] {
+    background-color: #000000;
+    border-right: none;
+}
+
+[data-testid="stSidebar"] * {
+    color: #b3b3b3;
+}
+
+[data-testid="stSidebar"] h1 {
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+/* Hero Section: Like a Spotify Playlist Header */
+.hero {
+    background: linear-gradient(135deg, #1DB954 0%, #191414 100%);
+    padding: 40px;
+    border-radius: 12px;
+    margin-bottom: 40px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+    letter-spacing: -1px;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 400;
+}
+
+/* Song Cards: Sleek Dark Mode with Hover Lift */
+.song-card {
+    background-color: #181818;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.song-card:hover {
+    background-color: #282828;
+    transform: translateY(-5px); /* Gentle lift effect */
+}
+
+.song-card h3 {
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #333;
+}
+
+.song-card p {
+    color: #B3B3B3; /* Spotify's signature muted gray */
+    font-size: 0.9rem;
+    margin: 5px 0;
+    line-height: 1.5;
+}
+
+.song-card b {
+    color: #FFFFFF;
+}
+
+/* Primary Button: Pill Shaped */
+.stButton>button {
+    background-color: #1DB954;
+    color: #000000 !important;
+    border: none;
+    border-radius: 500px; /* Perfect pill shape */
+    height: 55px;
+    width: 100%;
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    transition: transform 0.1s ease, background-color 0.2s ease;
+}
+
+.stButton>button:hover {
+    background-color: #1ed760; /* Slightly brighter on hover */
+    transform: scale(1.04);
+    color: #000000 !important;
+}
+
+/* Style Streamlit native inputs to match dark theme */
+div[data-baseweb="select"] > div, 
+div[data-baseweb="base-input"] > input {
+    background-color: #242424 !important;
+    border-radius: 4px !important;
+    border: 1px solid transparent !important;
+    color: white !important;
+}
+
+div[data-baseweb="select"] > div:hover {
+    background-color: #2a2a2a !important;
+    border: 1px solid #535353 !important;
+}
