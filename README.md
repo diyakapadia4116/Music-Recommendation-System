@@ -1,6 +1,6 @@
 # 🎵 Spotify Music Recommender
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)]([https://your-app-url.streamlit.app](https://music-recommendation-system-dk.streamlit.app/))
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)]([https://your-app-url.streamlit.app](https://music-recommendation-system-dk.streamlit.app/)
 
 A **Content-Based Music Recommendation System** that helps users discover new tracks based on audio similarity, genre, and musical characteristics. Give the engine a track you love, and it will analyze its acoustic features to generate a curated playlist of similar songs.
 
